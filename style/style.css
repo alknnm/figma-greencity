@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-menu {
+    background-color: gray
+}
+
+.start,
+.table-menu,
+.mid {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.start {
+    margin: 0 auto;
+    background: url("../img/banner.png");
+}
+
+.table-menu td,
+.start td,
+    {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+td.logo {
+    text-align: left;
+}
+
+.color1 {
+    color: green;
+}
+
+.color2 {
+    color: gray;
+}
+
+.mid, .news {
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+
