@@ -3,8 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.table-menu {
-    background-color: gray
+.table-menu, .footer {
+    background-color: #999999
 }
 
 .start,
@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     width: 1200px;
     text-align: center;
+    color: white;
 }
 
 .start {
@@ -36,16 +37,32 @@ td.logo {
 }
 
 .color1 {
-    color: green;
+    color: #6DC72A;
 }
 
 .color2 {
-    color: gray;
+    color: #999999;
 }
 
-.mid, .news {
+.mid, .news, .news2 {
     margin: 0 auto;
     text-align: center;
     width: 1200px;
 }
+.footer {
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+    color: white;
+}
 
+a {
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer p {
+    font-size: 12px;
+}
