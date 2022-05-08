@@ -17,14 +17,11 @@ body {
 }
 
 .start {
-    margin: 0 auto;
     background: url("../img/banner.png");
 }
 
 .table-menu td,
-.start td,
-    {
-    text-align: center;
+.start td {
     color: white;
 }
 
@@ -65,4 +62,48 @@ footer a {
 }
 footer p {
     font-size: 12px;
+}
+
+.news2 {
+    margin: 0 auto;
+}
+
+.start {
+    height: 150px;
+}
+
+.contact_inform {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+.contact_inform h3 {
+    color: #6DC72A;
+}
+
+.contact_inform p {
+    color: #999999;
+    font-size: 14px;
+}
+
+.contact_inform td {
+    width: 33.33%;
+}
+
+.map {
+    width: 900px;
+    margin: 0 auto;
+}
+
+input[type="submit" i] {
+    color: black
+    background-color: white;
+    border-radius: 25px;
+}
+
+form {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
 }
