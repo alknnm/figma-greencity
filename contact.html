@@ -78,8 +78,8 @@
             </td>
     </table>
 
-    <table>
-        <form action=""></form>
+    <table class="form">
+        <form action="" method="get"> 
         <tr>
             <td>Имя</td>
             <td>Телефон</td>
@@ -97,14 +97,13 @@
                 <input type="email" placeholder="Укажите электронную почту" name="email" required>
             </td>
             <td>
-                <select value="">
-                    <option name="Choose city" id="1" disabled selected>Выберите город
-                
-                <option value="Ульяновск" id="2">Ульяновск</option>
-                <option value="Димитровград" id=value>Димитровград</option>
-                <option value="Казань" id="4">Казань</option>
-                <option value="Самара" id="5">Самара</option>
-                <option value="Уфа" id="6">Уфа</option>
+                <select value="test" name="city">
+                    <option name="Choose city" id="1" disabled selected>Выберите город</option>
+                    <option value="Ulyanovsk" id="2">Ульяновск</option>
+                    <option value="Dimitrovgrad" id=value>Димитровград</option>
+                    <option value="Kazan" id="4">Казань</option>
+                    <option value="Samara" id="5">Самара</option>
+                    <option value="Ufa" id="6">Уфа</option>
                 </select>
             </td>
         </tr>
@@ -118,7 +117,6 @@
         </tr>
         </form>
     </table>
-    </form>
     <footer>
         <table class="footer">
             <tr>
@@ -127,7 +125,7 @@
                 </td>
                 <td>
                     <p>Стать волонтером может любой, профессия <br>
-                         и взгляды на мир не имеют значения</p>
+                        и взгляды на мир не имеют значения</p>
                 </td>
                 <td>
                     <p>
